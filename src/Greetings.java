@@ -1,3 +1,4 @@
+import java.util.Random;
 import java.util.Scanner;
 
 public class Greetings {
@@ -5,6 +6,7 @@ public class Greetings {
     public static void main (String args[]) {
         Scanner user_input = new Scanner(System.in);
         int guesses = 3;
+        Random random = new Random();
 
         System.out.println("Hello! What's your name?");
         String first_name = user_input.next();
@@ -12,10 +14,10 @@ public class Greetings {
         System.out.println("Let's play a game. Do you want to play?");
         System.out.println("Enter Yes or No");
         String answer = user_input.next();
-        if (answer != "No"){
+        if (answer.equals("Yes")){
             System.out.println("Great! Let's play!");
             System.out.println("I will pick a number between 1 and 10 and you will have 3 tries to guess!");
-            int guess = first_name.length();
+            int guess = random.nextInt(11);
             System.out.println("Ready? I have chosen a number!");
             while (guesses > 0){
                 System.out.println("Guess the number");
@@ -35,6 +37,7 @@ public class Greetings {
         }
         else {
             System.out.println("Oh well, too bad.");
+            System.out.println("Goodbye " + first_name + ".");
         }
 
     }
