@@ -35,9 +35,13 @@ public class Greetings {
             System.out.println("Good game " + first_name);
             System.out.println("Goodbye");
         }
-        else {
+        else if (answer.equals("No")) {
             System.out.println("Oh well, too bad.");
             System.out.println("Goodbye " + first_name + ".");
+        }
+        else {
+            System.out.println("Sorry, didn't understand that.");
+            System.out.println("Try again!");
         }
 
     }
