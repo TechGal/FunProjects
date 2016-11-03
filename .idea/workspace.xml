@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e87e75fe-4471-4c54-b9af-303cbd4a3bdd" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Fibonachi.java" afterPath="$PROJECT_DIR$/src/Fibonacci.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Fibonachi.java" afterPath="$PROJECT_DIR$/src/Fibonachi.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Greetings.java" afterPath="$PROJECT_DIR$/src/Greetings.java" />
     </list>
     <ignored path="FunProjects.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,7 +24,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Greetings.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Greetings.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Greetings.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="555">
@@ -35,11 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Fibonachi.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Fibonachi.java">
+      <file leaf-file-name="Fibonacci.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Fibonacci.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+            <state relative-caret-position="360">
+              <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -89,8 +88,9 @@
         <option value="$PROJECT_DIR$/src/Palendrome.java" />
         <option value="$PROJECT_DIR$/src/Palindrome.java" />
         <option value="$PROJECT_DIR$/src/PrintingFun.java" />
-        <option value="$PROJECT_DIR$/src/Fibonachi.java" />
         <option value="$PROJECT_DIR$/src/Greetings.java" />
+        <option value="$PROJECT_DIR$/src/Fibonachi.java" />
+        <option value="$PROJECT_DIR$/src/Fibonacci.java" />
       </list>
     </option>
   </component>
@@ -164,7 +164,7 @@
       </pane>
     </panes>
   </component>
-  <component name="RunManager" selected="Application.Greetings">
+  <component name="RunManager" selected="Application.Fibonacci">
     <configuration default="false" name="Fibonachi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Fibonachi" />
@@ -183,21 +183,6 @@
     <configuration default="false" name="PrintingFun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="PrintingFun" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="NumGuess" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="Palendrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Palendrome" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -231,6 +216,21 @@
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="NumGuess" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Fibonacci" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -487,17 +487,17 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.Fibonachi" />
       <item index="1" class="java.lang.String" itemvalue="Application.PrintingFun" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Palendrome" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Palindrome" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Greetings" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Palindrome" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Greetings" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Fibonacci" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Greetings" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Palindrome" />
-        <item index="2" class="java.lang.String" itemvalue="Application.PrintingFun" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Fibonachi" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Palendrome" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Fibonacci" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Greetings" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Palindrome" />
+        <item index="3" class="java.lang.String" itemvalue="Application.PrintingFun" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Fibonachi" />
       </list>
     </recent_temporary>
   </component>
@@ -543,7 +543,14 @@
       <option name="project" value="LOCAL" />
       <updated>1477938579262</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Now recognizes upper or lower case answers to question.">
+      <created>1478209457381</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1478209457381</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -609,7 +616,8 @@
     <MESSAGE value="Working on the Fibonachi sequence" />
     <MESSAGE value="Wrote a program to determine if input is a palindrome" />
     <MESSAGE value="Prints out 3 versions of the date" />
-    <option name="LAST_COMMIT_MESSAGE" value="Prints out 3 versions of the date" />
+    <MESSAGE value="Now recognizes upper or lower case answers to question." />
+    <option name="LAST_COMMIT_MESSAGE" value="Now recognizes upper or lower case answers to question." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -622,7 +630,7 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Fibonachi.java">
+    <entry file="file://$PROJECT_DIR$/src/Fibonacci.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
@@ -654,7 +662,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Fibonachi.java">
+    <entry file="file://$PROJECT_DIR$/src/Fibonacci.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
@@ -686,7 +694,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Fibonachi.java">
+    <entry file="file://$PROJECT_DIR$/src/Fibonacci.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
@@ -718,7 +726,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Fibonachi.java">
+    <entry file="file://$PROJECT_DIR$/src/Fibonacci.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
@@ -750,7 +758,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Fibonachi.java">
+    <entry file="file://$PROJECT_DIR$/src/Fibonacci.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
@@ -782,7 +790,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Fibonachi.java">
+    <entry file="file://$PROJECT_DIR$/src/Fibonacci.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
@@ -814,7 +822,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Fibonachi.java">
+    <entry file="file://$PROJECT_DIR$/src/Fibonacci.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -846,7 +854,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Fibonachi.java">
+    <entry file="file://$PROJECT_DIR$/src/Fibonacci.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
@@ -878,7 +886,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Fibonachi.java">
+    <entry file="file://$PROJECT_DIR$/src/Fibonacci.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -894,7 +902,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Fibonachi.java">
+    <entry file="file://$PROJECT_DIR$/src/Fibonacci.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -910,7 +918,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Fibonachi.java">
+    <entry file="file://$PROJECT_DIR$/src/Fibonacci.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1000,18 +1008,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Fibonachi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Greetings.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
           <caret line="38" column="33" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Fibonacci.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
           <folding />
         </state>
       </provider>
