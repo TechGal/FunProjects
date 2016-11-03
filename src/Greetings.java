@@ -14,7 +14,8 @@ public class Greetings {
         System.out.println("Let's play a game. Do you want to play?");
         System.out.println("Enter Yes or No");
         String answer = user_input.next();
-        if (answer.equals("Yes")){
+        answer.toLowerCase();
+        if (answer.equals("yes")){
             System.out.println("Great! Let's play!");
             System.out.println("I will pick a number between 1 and 10 and you will have 3 tries to guess!");
             int guess = random.nextInt(11);
@@ -35,7 +36,7 @@ public class Greetings {
             System.out.println("Good game " + first_name);
             System.out.println("Goodbye");
         }
-        else if (answer.equals("No")) {
+        else if (answer.equals("no")) {
             System.out.println("Oh well, too bad.");
             System.out.println("Goodbye " + first_name + ".");
         }
