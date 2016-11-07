@@ -18,7 +18,7 @@ public class Greetings {
         if (answer.equals("yes")){
             System.out.println("Great! Let's play!");
             System.out.println("I will pick a number between 1 and 10 and you will have 3 tries to guess!");
-            int guess = random.nextInt(11);
+            int guess = random.nextInt(9);
             System.out.println("Ready? I have chosen a number!");
             while (guesses > 0){
                 System.out.println("Guess the number");
@@ -33,8 +33,8 @@ public class Greetings {
                     guesses = guesses-1;
                 }
             }
+            System.out.println("Your number was " + guess);
             System.out.println("Good game " + first_name);
-            System.out.println("Goodbye");
         }
         else if (answer.equals("no")) {
             System.out.println("Oh well, too bad.");
