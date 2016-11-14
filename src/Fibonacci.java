@@ -4,9 +4,9 @@ public class Fibonacci {
 
     public static void main (String[] args) {
 
-        double NumOne = 0;
-        double NumTwo = 1;
-        int Count = 1;
+        int NumOne = 0;
+        int NumTwo = 1;
+        int Numbers = 0;
 
         Scanner user_input = new Scanner(System.in);
 
@@ -15,15 +15,23 @@ public class Fibonacci {
         String counter = user_input.next();
         int counting = Integer.parseInt(counter);
 
-        while (Count < counting) {
-            System.out.println(NumOne);
+        int[] FibonacciArray = new int[100];
+
+        while (Numbers < counting) {
+            FibonacciArray[Numbers] = NumOne;
             NumOne = NumOne + NumTwo;
+            Numbers++;
 
-            System.out.println(NumTwo);
+            FibonacciArray[Numbers] = NumTwo;
             NumTwo = NumOne + NumTwo;
-
-            Count = Count + 2;
+            Numbers++;
         }
+
+        int a = counting + 1;
+        for (int i=0; i<a; i++){
+            System.out.println(FibonacciArray [i]);
+        }
+        System.out.println("Here you go!");
     }
 
 }
