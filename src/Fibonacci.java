@@ -27,7 +27,7 @@ public class Fibonacci {
             Numbers++;
         }
 
-        int a = counting + 1;
+        int a = counting;
         for (int i=0; i<a; i++){
             System.out.println(FibonacciArray [i]);
         }
