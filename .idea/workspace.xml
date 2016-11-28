@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e87e75fe-4471-4c54-b9af-303cbd4a3bdd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Greetings.java" afterPath="$PROJECT_DIR$/src/Greetings.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Palindrome.java" afterPath="$PROJECT_DIR$/src/Palindrome.java" />
     </list>
     <ignored path="FunProjects.iws" />
@@ -603,7 +602,14 @@
       <option name="project" value="LOCAL" />
       <updated>1480300501290</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Fixed a small bug">
+      <created>1480300550949</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1480300550949</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TodoView">
@@ -683,7 +689,8 @@
     <MESSAGE value="Game now tells you your number after you finish." />
     <MESSAGE value="Fibonacci will now print out odd or even number of values, from an array." />
     <MESSAGE value="A simple program to show my papa some Java" />
-    <option name="LAST_COMMIT_MESSAGE" value="A simple program to show my papa some Java" />
+    <MESSAGE value="Fixed a small bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed a small bug" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
