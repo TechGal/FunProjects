@@ -18,7 +18,7 @@ public class Calculator {
         System.out.println("What is your second number?");
         num2 = user_input.nextDouble();
 
-        while (understood == false) {
+        while (!understood) {
 
             if (operation.equals("+")) {
                 System.out.println("The product is " + (num1 + num2));
