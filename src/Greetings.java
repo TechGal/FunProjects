@@ -13,10 +13,10 @@ public class Greetings {
         String first_name = user_input.next();
         System.out.println("Hey " + first_name + "!");
         System.out.println("Let's play a game. Do you want to play?");
-        while (goodAnswer == false) {
+        while (!goodAnswer) {
             System.out.println("Enter Yes or No");
             String answer = user_input.next();
-            answer.toLowerCase();
+            answer = answer.toLowerCase();
             if (answer.equals("yes")) {
                 System.out.println("Great! Let's play!");
                 System.out.println("I will pick a number between 1 and 10 and you will have 3 tries to guess!");
